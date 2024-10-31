@@ -76,7 +76,7 @@ task.defer(function()
 	print("✅ Tested with a " .. rate .. "% success rate (" .. outOf .. ")")
 	print("⛔ " .. fails .. " tests failed")
 	print("⚠️ " .. undefined .. " globals are missing aliases")
-        print(" Your Executor " .. "identifyexecutor()" .. " has " .. rate .."% UNC")
+        print(" ---Your Executor " .. identifyexecutor() .. " has " .. rate .."% UNC---")
 game:GetService("StarterGui"):SetCore("SendNotification", { 
          Title = "UNC Summary";
          Text = "✅ Your Executor was tested with a " .. rate .. "% success rate. Check console (F9) for more information";
