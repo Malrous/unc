@@ -1,7 +1,7 @@
 --made by Malrous
 game:GetService("StarterGui"):SetCore("SendNotification", { 
          Title = "UNC Test";
-         Text = "Configured by Malrous, Code by NamingStandard";
+         Text = "Configured by Malrous, Code by NamingStandard. Wait for the UNC Test results";
          Icon = ""})
          Duration = 5;
 local passes, fails, undefined = 0, 0, 0
