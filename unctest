@@ -1,5 +1,9 @@
-if identifyexecutor() == JJSploit then
-print("JJSploit")
+--made by Malrous
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+         Title = "UNC Test";
+         Text = "Configured by Malrous, Code by NamingStandard";
+         Icon = ""})
+         Duration = 5;
 local passes, fails, undefined = 0, 0, 0
 local running = 0
 
