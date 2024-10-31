@@ -1,3 +1,5 @@
+if identifyexecutor() == JJSploit then
+print("JJSploit")
 local passes, fails, undefined = 0, 0, 0
 local running = 0
 
